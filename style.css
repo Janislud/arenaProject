@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* FIRST SECTION */
+
+#firstSection {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./media/Rectangle-background.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstSection-text-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.firstSection-text-wrapper h1 {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Oswald;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    max-width: 890px;
+    margin-top: 192px;
+}
+
+.firstSection-text-wrapper p {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    max-width: 734px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+.conteiner-div-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* margin: 20px auto 0px auto; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:25px;
+    text-align: center;
+    gap: 45px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    /* padding: 50px 344px 50px 350px; */
+    width: 1155px;
+    justify-content: space-around;
+}
+
+.conteiner-div-wrapper div {
+    margin: 50px 50px 50px 50px;
+
+}
+
+.conteiner-div-wrapper h3 {
+    max-width: 190px;
+    color: var(--Accent, #F7654A);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.conteiner-div-wrapper h4 {
+    max-width: 190px;
+    color: #000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.conteiner-div-wrapper h5 {
+    max-width: 190px;
+    color: var(--gray, #999);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* SECOND SECTION */
+
+#secondSection {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.second-section-wrapper-block {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    gap: 45px;
+}
+
+.second-section-wrapper h2 {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    align-content: center;
+    color: var(--Dark, #404149);
+    font-family: Oswald;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.second-section-wrapper div {
+    max-width: 350px;
+}
+
+/* .second-section-wrapper img {
+    max-width: 350px;
+} */
+
+.second-section-wrapper .rectangel {
+    max-width: 55px;
+    background: var(--Accent, #F7654A);
+}
+
+.second-section-wrapper h6 {
+    max-width: 142px;
+    color: var(--Dark, #404149);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.second-section-wrapper p {
+    max-width: 350px;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* threeSection */
+
+#threeSection {
+    background: var(--Accent, #F7654A);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 55px;
+}
+
+.three-section-text-wrapper {
+    margin-right: 745px;
+}
+
+#threeSection button {
+    margin-left: 1020px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    position: absolute;
+    padding: 15px 30px 15px 30px;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+
+.three-section-text-wrapper h2 {
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    width: 537px;
+}
+
+.three-section-text-wrapper p {
+    margin-top: 15px;
+    width: 562px;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
