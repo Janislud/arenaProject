@@ -85,3 +85,52 @@ const threeSectionBtn = document.createElement('button')
 threeSectionBtn.innerText='ВАШ ЗАПРОС'
 threeSection.append(threeSectionBtn)
 
+//Four Section
+
+// const fourSection = document.querySelector('#fourSection')
+// const fourH6 = document.createElement('h6')
+// fourH6.classList = 'four-section-text-wrapper'
+// fourH6.innerText = 'ЧЕМ МЫ ЗАНИМАЕМСЯ?'
+// const fourDiv = document.createElement('div')
+// fourSection.append(fourH6)
+// fourSection.append(fourDiv)
+
+
+// for(let i = 0; i < 3; i++){
+
+//     const div = createElement('div')
+//     const img = createElement('img')
+//     img.src = './media/img-home.svg'
+//     const p = document.createElement('p')
+//     p.innerText = 'СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ'
+
+// div.append(img)
+// div.append(p)
+
+// }
+
+
+
+const fourSection = document.querySelector('#fourSection')
+const fourDiv = document.createElement('div')
+fourSection.append(fourDiv)
+const fourH6 = document.createElement('h6')
+fourH6.innerText = 'ЧЕМ МЫ ЗАНИМАЕМСЯ?'
+fourDiv.append(fourH6)
+const fourDivSecond = document.createElement('div')
+fourDivSecond.classList = 'content-wrapper'
+fourDiv.classList = 'four-section-content-wrapper'
+fourDiv.append(fourDivSecond)
+
+for(let i = 0;i < 3; i ++) {
+    const div = document.createElement('div')
+    const img = document.createElement('img')
+    img.src='./media/img-home.svg'
+    const p = document.createElement('p')
+    p.innerText='СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ'
+    fourDivSecond.append(div)
+    div.append(img)
+    div.append(p)
+
+}
+
