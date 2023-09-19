@@ -85,31 +85,7 @@ const threeSectionBtn = document.createElement('button')
 threeSectionBtn.innerText='ВАШ ЗАПРОС'
 threeSection.append(threeSectionBtn)
 
-//Four Section
-
-// const fourSection = document.querySelector('#fourSection')
-// const fourH6 = document.createElement('h6')
-// fourH6.classList = 'four-section-text-wrapper'
-// fourH6.innerText = 'ЧЕМ МЫ ЗАНИМАЕМСЯ?'
-// const fourDiv = document.createElement('div')
-// fourSection.append(fourH6)
-// fourSection.append(fourDiv)
-
-
-// for(let i = 0; i < 3; i++){
-
-//     const div = createElement('div')
-//     const img = createElement('img')
-//     img.src = './media/img-home.svg'
-//     const p = document.createElement('p')
-//     p.innerText = 'СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ'
-
-// div.append(img)
-// div.append(p)
-
-// }
-
-
+// Four section
 
 const fourSection = document.querySelector('#fourSection')
 const fourDiv = document.createElement('div')
@@ -134,3 +110,95 @@ for(let i = 0;i < 3; i ++) {
 
 }
 
+
+// Five Section
+
+const fiveSection = document.querySelector('#fiveSection')
+const fiveSectionDiv = document.createElement('div')
+fiveSectionDiv.classList = 'five-section-wrapper'
+const fiveSectionH2 = document.createElement('h2')
+fiveSectionH2.innerText='ЧЕМ МЫ ЗАНИМАЕМСЯ?'
+fiveSection.append(fiveSectionDiv)
+fiveSectionDiv.append(fiveSectionH2)
+const fiveSectionDivSecond = document.createElement('div')
+fiveSectionDivSecond.classList='five-section-second-wrapper'
+fiveSectionDiv.append(fiveSectionDivSecond)
+
+for(let i = 0; i < 6; i ++) {
+const div = document.createElement('div')
+const img = document.createElement('img')
+img.src = './media/img-home.svg'
+const p  = document.createElement('p')
+p.innerText='СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ'
+    
+
+fiveSectionDivSecond.append(div)
+div.append(img)
+div.append(p)
+
+
+}
+
+// Six Section
+
+const sixSection = document.querySelector('#sixSection')
+const sixSectionH2 = document.createElement('h2')
+sixSection.append(sixSectionH2)
+sixSectionH2.innerText='КОНТАКТЫ'
+const divWrapper = document.createElement('div')
+divWrapper.classList ='six-section-wrapper'
+sixSection.append(divWrapper)
+
+
+
+
+const sixSectionFirstImg = document.createElement('img')
+sixSectionFirstImg.src='./media/dot.svg'
+const sixSectionFirstH3 = document.createElement('h3')
+sixSectionFirstH3.innerText='АДРЕС:'
+const sixSectionSecondP = document.createElement('p')
+sixSectionSecondP.innerText = 'УЛИЦА МИРА 140, ОФИС 140-142'
+const sixSectionFirstDiv = document.createElement('div')
+sixSectionFirstDiv.append(sixSectionFirstImg)
+sixSectionFirstDiv.append(sixSectionFirstH3)
+sixSectionFirstDiv.append(sixSectionSecondP)
+divWrapper.append(sixSectionFirstDiv)
+
+
+
+const sixSectionPhoneImg = document.createElement('img')
+sixSectionPhoneImg.src='./media/phone.svg'
+const phoneFirstH3 = document.createElement('h3')
+phoneFirstH3.innerText ='ТЕЛЕФОН:'
+const phoneSecondP = document.createElement('p')
+phoneSecondP.innerHTML=' 8 (812) 111-22-33 8 (812) 111-22-33'
+const sixSectionSecondDiv = document.createElement('div')
+sixSectionSecondDiv.append(sixSectionPhoneImg)
+sixSectionSecondDiv.append(phoneFirstH3)
+sixSectionSecondDiv.append(phoneSecondP)
+divWrapper.append(sixSectionSecondDiv)
+
+const sixSectionTime = document.createElement('img')
+sixSectionTime.src='./media/time.svg'
+const sixSectionFirstTimeH3 = document.createElement('h3')
+sixSectionFirstTimeH3.innerText='ВРЕМЯ РАБОТЫ:'
+const sixSectionSecondTimeP = document.createElement('p')
+sixSectionSecondTimeP.innerText='ПН-СБ 10:00 - 20:00'
+const sixSectionThreeDiv = document.createElement('div')
+sixSectionThreeDiv.append(sixSectionTime)
+sixSectionThreeDiv.append(sixSectionFirstTimeH3)
+sixSectionThreeDiv.append(sixSectionSecondTimeP)
+divWrapper.append(sixSectionThreeDiv)
+
+
+const sixSectionEmail =document.createElement('img')
+sixSectionEmail.src='./media/email.svg'
+const sixSectionFirstEmailH3 = document.createElement('h3')
+sixSectionFirstEmailH3.innerText='E-MAIL:'
+const sixSectionSecontEmailP = document.createElement('p')
+sixSectionSecontEmailP.innerHTML='INFO@VIP.RU'
+const sixSectionEmailDiv = document.createElement('div')
+sixSectionEmailDiv.append(sixSectionEmail)
+sixSectionEmailDiv.append(sixSectionFirstEmailH3)
+sixSectionEmailDiv.append(sixSectionSecontEmailP)
+divWrapper.append(sixSectionEmailDiv)
