@@ -13,6 +13,12 @@
 
 }
 
+.firstSection-text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .firstSection-text-wrapper h1 {
     color: var(--White, #FFF);
     text-align: center;
@@ -320,6 +326,7 @@ letter-spacing: 0.7px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1100px;
+    margin-bottom: 50px;
 }
 
 .six-section-wrapper div {
@@ -359,4 +366,73 @@ letter-spacing: 0.7px;
 
 .six-section-wrapper :last-child p {
     color: #F7654A;
+}
+
+footer {
+    background-color: #404149;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 225px;
+    padding:50px 50px 50px 50px;
+    align-items: center;
+}
+
+.leftp {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+     color:  #FFFFFF;
+}
+
+
+.rightp {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color:  #FFFFFF;
+}
+
+
+
+/* MEDIA */
+/* телефон: */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    h1{
+        font-size: 28px;
+        padding: 2%;
+        flex-direction: column;
+    }
+
+
+}
+
+/* планшет  */
+@media only screen and (min-width: 480px) and (max-width: 787px) {
+    h1 {
+        font-size: 40px;
+        padding: 5%;
+        flex-direction: column;
+    }
+
+}
+
+
+/* Стандартный экран ноутбук/монитор: */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    h1{
+        font-size: 52px;
+        padding: 10%;
+    }
+
+}
+
+@media only screen and (min-width: 1201px) {
+    .firstSection-text-wrapper {
+        font-size: 64px;
+        padding:20%;
+  
+    }
 }

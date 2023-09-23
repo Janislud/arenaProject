@@ -179,11 +179,14 @@ sixSectionPhoneImg.src='./media/phone.svg'
 const phoneFirstH3 = document.createElement('h3')
 phoneFirstH3.innerText ='ТЕЛЕФОН:'
 const phoneSecondP = document.createElement('p')
-phoneSecondP.innerHTML=' 8 (812) 111-22-33 8 (812) 111-22-33'
+phoneSecondP.innerHTML='8 (812) 111-22-33'
+const phoneSecondP2 = document.createElement('p')
+phoneSecondP2.innerHTML = '8 (812) 111-22-33'
 const sixSectionSecondDiv = document.createElement('div')
 sixSectionSecondDiv.append(sixSectionPhoneImg)
 sixSectionSecondDiv.append(phoneFirstH3)
 sixSectionSecondDiv.append(phoneSecondP)
+sixSectionSecondDiv.append(phoneSecondP2)
 divWrapper.append(sixSectionSecondDiv)
 
 const sixSectionTime = document.createElement('img')
@@ -210,3 +213,18 @@ sixSectionEmailDiv.append(sixSectionEmail)
 sixSectionEmailDiv.append(sixSectionFirstEmailH3)
 sixSectionEmailDiv.append(sixSectionSecontEmailP)
 divWrapper.append(sixSectionEmailDiv)
+
+
+// Footer
+
+
+const footer = document.querySelector('footer')
+const footerFirstP = document.createElement('p')
+footerFirstP.classList='leftp'
+footerFirstP.innerText='© 2019 Строительная компания'
+const footerSecondP = document.createElement('p')
+footerSecondP.classList='rightp'
+footerSecondP.innerText='Разработано лучшей студей'
+
+footer.append(footerFirstP)
+footer.append(footerSecondP)
