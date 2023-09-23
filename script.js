@@ -25,7 +25,7 @@ for (let i = 0; i < 4; i++) {
     h3.innerText = '26'
     h4.innerText = 'лет'
     h5.innerText = 'на рынке'
-    
+
     div.append(h3)
     div.append(h4)
     div.append(h5)
@@ -46,7 +46,7 @@ secondSectionDiv.append(secontSectionH2)
 const secondSectionDivWrapper = document.createElement('div')
 secondSectionDivWrapper.classList = "second-section-wrapper-block"
 
-for( let i = 0; i < 3;i++) {
+for (let i = 0; i < 3; i++) {
     const div = document.createElement('div')
     const img = document.createElement('img')
     const br = document.createElement('br')
@@ -54,10 +54,10 @@ for( let i = 0; i < 3;i++) {
     const h6 = document.createElement('h6')
     const p = document.createElement('p')
     img.src = './media/img-arena.svg';
-    rectangel.src='./media/arena-rectangel.svg';
+    rectangel.src = './media/arena-rectangel.svg';
     rectangel.classList = 'rectangel'
     h6.innerText = 'Арена'
-    p.innerHTML='Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.'
+    p.innerHTML = 'Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.'
 
     div.append(img)
     div.append(br)
@@ -66,7 +66,7 @@ for( let i = 0; i < 3;i++) {
     div.append(p)
 
     secondSectionDivWrapper.append(div)
-    
+
 }
 
 secondSectionDiv.append(secondSectionDivWrapper)
@@ -79,9 +79,9 @@ threeSectionDiv.classList = 'three-section-text-wrapper'
 threeSection.append(threeSectionDiv)
 const threeSectionH2 = document.createElement('h2')
 const thrreeSectionDivSecond = document.createElement('div')
-thrreeSectionDivSecond.classList='three-text-wrapper'
+thrreeSectionDivSecond.classList = 'three-text-wrapper'
 // threeSectionDiv.append(threeSectionH2)
-threeSectionH2.innerText= 'САМЫЕ УМНЫЕ ПРОЕКТЫ'
+threeSectionH2.innerText = 'САМЫЕ УМНЫЕ ПРОЕКТЫ'
 const threeSectionP = document.createElement('p')
 threeSectionP.innerText = 'РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!'
 // threeSectionDiv.append(threeSectionP)
@@ -90,7 +90,7 @@ thrreeSectionDivSecond.append(threeSectionH2)
 thrreeSectionDivSecond.append(threeSectionP)
 
 const threeSectionBtn = document.createElement('button')
-threeSectionBtn.innerText='ВАШ ЗАПРОС'
+threeSectionBtn.innerText = 'ВАШ ЗАПРОС'
 threeSectionDiv.append(threeSectionBtn)
 
 // Four section
@@ -106,12 +106,12 @@ fourDivSecond.classList = 'content-wrapper'
 fourDiv.classList = 'four-section-content-wrapper'
 fourDiv.append(fourDivSecond)
 
-for(let i = 0;i < 3; i ++) {
+for (let i = 0; i < 3; i++) {
     const div = document.createElement('div')
     const img = document.createElement('img')
-    img.src='./media/img-home.svg'
+    img.src = './media/img-home.svg'
     const p = document.createElement('p')
-    p.innerText='СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ'
+    p.innerText = 'СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ'
     fourDivSecond.append(div)
     div.append(img)
     div.append(p)
@@ -125,24 +125,24 @@ const fiveSection = document.querySelector('#fiveSection')
 const fiveSectionDiv = document.createElement('div')
 fiveSectionDiv.classList = 'five-section-wrapper'
 const fiveSectionH2 = document.createElement('h2')
-fiveSectionH2.innerText='ЧЕМ МЫ ЗАНИМАЕМСЯ?'
+fiveSectionH2.innerText = 'ЧЕМ МЫ ЗАНИМАЕМСЯ?'
 fiveSection.append(fiveSectionDiv)
 fiveSectionDiv.append(fiveSectionH2)
 const fiveSectionDivSecond = document.createElement('div')
-fiveSectionDivSecond.classList='five-section-second-wrapper'
+fiveSectionDivSecond.classList = 'five-section-second-wrapper'
 fiveSectionDiv.append(fiveSectionDivSecond)
 
-for(let i = 0; i < 6; i ++) {
-const div = document.createElement('div')
-const img = document.createElement('img')
-img.src = './media/img-home.svg'
-const p  = document.createElement('p')
-p.innerText='СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ'
-    
+for (let i = 0; i < 6; i++) {
+    const div = document.createElement('div')
+    const img = document.createElement('img')
+    img.src = './media/img-home.svg'
+    const p = document.createElement('p')
+    p.innerText = 'СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ'
 
-fiveSectionDivSecond.append(div)
-div.append(img)
-div.append(p)
+
+    fiveSectionDivSecond.append(div)
+    div.append(img)
+    div.append(p)
 
 
 }
@@ -152,18 +152,18 @@ div.append(p)
 const sixSection = document.querySelector('#sixSection')
 const sixSectionH2 = document.createElement('h2')
 sixSection.append(sixSectionH2)
-sixSectionH2.innerText='КОНТАКТЫ'
+sixSectionH2.innerText = 'КОНТАКТЫ'
 const divWrapper = document.createElement('div')
-divWrapper.classList ='six-section-wrapper'
+divWrapper.classList = 'six-section-wrapper'
 sixSection.append(divWrapper)
 
 
 
 
 const sixSectionFirstImg = document.createElement('img')
-sixSectionFirstImg.src='./media/dot.svg'
+sixSectionFirstImg.src = './media/dot.svg'
 const sixSectionFirstH3 = document.createElement('h3')
-sixSectionFirstH3.innerText='АДРЕС:'
+sixSectionFirstH3.innerText = 'АДРЕС:'
 const sixSectionSecondP = document.createElement('p')
 sixSectionSecondP.innerText = 'УЛИЦА МИРА 140, ОФИС 140-142'
 const sixSectionFirstDiv = document.createElement('div')
@@ -175,11 +175,11 @@ divWrapper.append(sixSectionFirstDiv)
 
 
 const sixSectionPhoneImg = document.createElement('img')
-sixSectionPhoneImg.src='./media/phone.svg'
+sixSectionPhoneImg.src = './media/phone.svg'
 const phoneFirstH3 = document.createElement('h3')
-phoneFirstH3.innerText ='ТЕЛЕФОН:'
+phoneFirstH3.innerText = 'ТЕЛЕФОН:'
 const phoneSecondP = document.createElement('p')
-phoneSecondP.innerHTML='8 (812) 111-22-33'
+phoneSecondP.innerHTML = '8 (812) 111-22-33'
 const phoneSecondP2 = document.createElement('p')
 phoneSecondP2.innerHTML = '8 (812) 111-22-33'
 const sixSectionSecondDiv = document.createElement('div')
@@ -190,11 +190,11 @@ sixSectionSecondDiv.append(phoneSecondP2)
 divWrapper.append(sixSectionSecondDiv)
 
 const sixSectionTime = document.createElement('img')
-sixSectionTime.src='./media/time.svg'
+sixSectionTime.src = './media/time.svg'
 const sixSectionFirstTimeH3 = document.createElement('h3')
-sixSectionFirstTimeH3.innerText='ВРЕМЯ РАБОТЫ:'
+sixSectionFirstTimeH3.innerText = 'ВРЕМЯ РАБОТЫ:'
 const sixSectionSecondTimeP = document.createElement('p')
-sixSectionSecondTimeP.innerText='ПН-СБ 10:00 - 20:00'
+sixSectionSecondTimeP.innerText = 'ПН-СБ 10:00 - 20:00'
 const sixSectionThreeDiv = document.createElement('div')
 sixSectionThreeDiv.append(sixSectionTime)
 sixSectionThreeDiv.append(sixSectionFirstTimeH3)
@@ -202,12 +202,12 @@ sixSectionThreeDiv.append(sixSectionSecondTimeP)
 divWrapper.append(sixSectionThreeDiv)
 
 
-const sixSectionEmail =document.createElement('img')
-sixSectionEmail.src='./media/email.svg'
+const sixSectionEmail = document.createElement('img')
+sixSectionEmail.src = './media/email.svg'
 const sixSectionFirstEmailH3 = document.createElement('h3')
-sixSectionFirstEmailH3.innerText='E-MAIL:'
+sixSectionFirstEmailH3.innerText = 'E-MAIL:'
 const sixSectionSecontEmailP = document.createElement('p')
-sixSectionSecontEmailP.innerHTML='INFO@VIP.RU'
+sixSectionSecontEmailP.innerHTML = 'INFO@VIP.RU'
 const sixSectionEmailDiv = document.createElement('div')
 sixSectionEmailDiv.append(sixSectionEmail)
 sixSectionEmailDiv.append(sixSectionFirstEmailH3)
@@ -220,11 +220,11 @@ divWrapper.append(sixSectionEmailDiv)
 
 const footer = document.querySelector('footer')
 const footerFirstP = document.createElement('p')
-footerFirstP.classList='leftp'
-footerFirstP.innerText='© 2019 Строительная компания'
+footerFirstP.classList = 'leftp'
+footerFirstP.innerText = '© 2019 Строительная компания'
 const footerSecondP = document.createElement('p')
-footerSecondP.classList='rightp'
-footerSecondP.innerText='Разработано лучшей студей'
+footerSecondP.classList = 'rightp'
+footerSecondP.innerText = 'Разработано лучшей студей'
 
 footer.append(footerFirstP)
 footer.append(footerSecondP)

@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
-/* FIRST SECTION */
+body {
+    font-family: 'Oswald', sans-serif;
+}
 
+/* FIRST SECTION */
 #firstSection {
     background-image: url(./media/Rectangle-background.svg);
     background-position-x: center;
     background-repeat: no-repeat;
-
 }
 
 .firstSection-text-wrapper {
@@ -18,49 +20,37 @@
     flex-direction: column;
 }
 
-
 .firstSection-text-wrapper h1 {
     color: var(--White, #FFF);
     text-align: center;
-    font-family: Oswald;
     font-size: 64px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.28px;
     text-transform: uppercase;
     max-width: 890px;
-
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding-top: 100px;
 }
 
 .firstSection-text-wrapper p {
     color: var(--White, #FFF);
     text-align: center;
-    font-family: Oswald;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    max-width: 734px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35px;
+    margin: 35px auto 0 auto;
 }
 
 .conteiner-div-wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
+    margin: 25px auto 0 auto;
     text-align: center;
     gap: 45px;
     background-color: white;
-    align-items: center;
     max-width: 1155px;
     justify-content: center;
 }
@@ -70,38 +60,24 @@
 }
 
 .conteiner-div-wrapper h3 {
-    max-width: 190px;
     color: var(--Accent, #F7654A);
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
     text-transform: uppercase;
 }
 
 .conteiner-div-wrapper h4 {
-    max-width: 190px;
-    color: #000;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     text-transform: uppercase;
 }
 
 .conteiner-div-wrapper h5 {
-    max-width: 190px;
     color: var(--gray, #999);
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+
 }
 
 /* SECOND SECTION */
@@ -109,6 +85,7 @@
 #secondSection {
     margin-bottom: 50px;
 }
+
 .second-section-wrapper-block {
     display: flex;
     flex-wrap: wrap;
@@ -120,6 +97,7 @@
     margin-top: 55px;
     text-align: center;
     margin-bottom: 55px;
+
 }
 
 .second-section-wrapper-block p {
@@ -127,20 +105,14 @@
 }
 
 .second-section-wrapper-block h6 {
-    font-family: 'Oswald', sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
-    width: 142px;
 }
 
 .second-section-wrapper-block p {
     font-family: Open Sans;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     width: 350px;
 }
 
@@ -159,11 +131,8 @@
     justify-content: space-around;
     align-items: center;
     max-width: 1560px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
-
-.three-text-wrapper {}
 
 #threeSection button {
     border: none;
@@ -171,35 +140,26 @@
     width: 175px;
     height: 50px;
     color: #000;
-font-family: Oswald;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.7px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
 }
 
 .three-section-text-wrapper h2 {
     color: #FFF;
-    font-family: 'Oswald', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.96px;
-    width: 537px;
 }
 
 .three-section-text-wrapper p {
     padding: 15px 0px 15px 0px;
     color: #FFF;
-    font-family: 'Oswald', sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.48px;
-
 }
 
 /* FOUR-SECTION */
@@ -208,22 +168,18 @@ letter-spacing: 0.7px;
 
 .four-section-text-wrapper {
     max-width: 1110px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .four-section-content-wrapper {
     max-width: 1110px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .four-section-content-wrapper h6 {
-    width: 351px;
-    font-family: 'Oswald', sans-serif;
+    text-align: center;
     font-weight: 500;
     font-size: 36px;
-    line-height: 53px;
     margin: 25px auto 25px auto;
 }
 
@@ -237,7 +193,6 @@ letter-spacing: 0.7px;
     margin-top: 55px;
     text-align: center;
     background-color: #F7F7F7;
-
     padding: 20px 20px 20px 20px;
     width: 300px;
 }
@@ -245,43 +200,28 @@ letter-spacing: 0.7px;
 .content-wrapper p {
     margin-top: 25px;
     width: 172px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
     font-weight: 500;
     font-size: 21px;
-    line-height: 31px;
-
 }
 
 /* Five Section */
 
-#fiveSection {}
-
-.five-section-wrapper {}
-
 .five-section-wrapper h2 {
-    width: 351px;
-    font-family: 'Oswald', sans-serif;
+    text-align: center;
     font-weight: 500;
     font-size: 36px;
     line-height: 53px;
     margin: 100px auto 70px auto;
 }
 
-
-
 .five-section-second-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 39px 122px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
-   max-width:1159px;
-    justify-content: center;
-
+    max-width: 1159px;
 }
 
 .five-section-second-wrapper div {
@@ -290,28 +230,16 @@ letter-spacing: 0.7px;
     padding: 20px 20px 20px 20px
 }
 
-.five-section-second-wrapper img {
-    text-align: center;
-}
-
 .five-section-second-wrapper p {
+    margin: 25px auto 0px auto;
     width: 172px;
-    text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    width: 172px;
-    font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: 21px;
-    line-height: 31px;
 }
 
 /* Six Section */
 
 #sixSection {
-    align-items: center;
     text-align: center;
 }
 
@@ -323,19 +251,13 @@ letter-spacing: 0.7px;
 .six-section-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     max-width: 1100px;
     margin-bottom: 50px;
 }
 
 .six-section-wrapper div {
-    width: 225px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .six-section-wrapper img {
@@ -346,22 +268,18 @@ letter-spacing: 0.7px;
 }
 
 .six-section-wrapper h3 {
-    font-family: 'Oswald', sans-serif;
+
     font-weight: 500;
     font-size: 24px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 0px 25px 0px;
     color: #999999;
 }
 
 .six-section-wrapper p {
     color: #000000;
-    font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: 24px;
     width: 196px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .six-section-wrapper :last-child p {
@@ -373,9 +291,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 225px;
-    padding:50px 50px 50px 50px;
-    align-items: center;
+    gap: 150px;
+    padding: 50px 50px 50px 50px;
 }
 
 .leftp {
@@ -383,30 +300,25 @@ footer {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-     color:  #FFFFFF;
+    color: #FFFFFF;
 }
-
 
 .rightp {
     font-family: Open Sans;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-    color:  #FFFFFF;
+    color: #FFFFFF;
 }
-
-
 
 /* MEDIA */
 /* телефон: */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-    h1{
+    h1 {
         font-size: 28px;
         padding: 2%;
         flex-direction: column;
     }
-
-
 }
 
 /* планшет  */
@@ -416,23 +328,19 @@ footer {
         padding: 5%;
         flex-direction: column;
     }
-
 }
-
 
 /* Стандартный экран ноутбук/монитор: */
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
-    h1{
+    h1 {
         font-size: 52px;
         padding: 10%;
     }
-
 }
 
 @media only screen and (min-width: 1201px) {
     .firstSection-text-wrapper {
         font-size: 64px;
-        padding:20%;
-  
+        padding: 0 20%
     }
 }
